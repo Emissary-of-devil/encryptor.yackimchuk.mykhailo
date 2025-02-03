@@ -2,7 +2,7 @@ package org.javarush;
 import java.io.IOException;
 
 
-public class Runner {
+ class Runner {
 
     public static void main(String[] args) throws IOException {
         String command = args[0].toUpperCase();
