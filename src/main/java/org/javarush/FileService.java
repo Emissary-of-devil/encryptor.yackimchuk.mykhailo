@@ -64,7 +64,7 @@ import java.nio.file.Paths;
 
                 String encryptedContentBruteforce = new String(Files.readAllBytes(encryptedFileBruteforce.toPath()));
                 result = BruteForce.bruteforce(encryptedContentBruteforce);
-                WriteFile.writeFile(filepath, result, "[BRUTEFORSE]");// Запис зашифрованого в файл
+                WriteFile.writeFile(filepath, result, "[BRUTEFORСE]");// Запис зашифрованого в файл
                 break;
 
             default:
