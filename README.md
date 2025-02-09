@@ -20,6 +20,8 @@ Oгляд проєкту:
 3.Не потрібно міняти шлях до файлу після команди ENCRYPT. Можна лише змінювати ENCRYPT\DECRYPT.
 4.Тест файл з якого буде робитися зашифрування має мати назву MainFile.txt.
 5.Після filePath введіть ключ. Ключ має складатися не з букв, а цифер.
-6.Программа створить зашифрований і дешифрований текст з MainFile із назвами MainFile[DECRYPTED].txt тв MainFile[DECRYPTED].txt.
+6.Программа створить зашифрований і дешифрований текст з MainFile із назвами MainFile[ENCRYPTED].txt тв MainFile[DECRYPTED].txt.
 7.Брутфорс (BRUTEFORCE) також не потребує введення шляху. Потрібно лише ввести команду(command) BRUTEFORCE.
-8. Результат BRUTEFORCE буде записаний у створений файл з закінченням MainFile[BRUTEFORCE].txt.
+9.Результат BRUTEFORCE буде записаний у створений файл з закінченням MainFile[BRUTEFORCE].txt.
+
+УВАГА!!! команда BRUTEFORCE не буде працювати, якщо не буде попередньо створено pfibahjdfyjuj ntrcne MainFile[ENCRYPTED].txt
