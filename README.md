@@ -24,4 +24,4 @@ Oгляд проєкту:
 7.Брутфорс (BRUTEFORCE) також не потребує введення шляху. Потрібно лише ввести команду(command) BRUTEFORCE.
 9.Результат BRUTEFORCE буде записаний у створений файл з закінченням MainFile[BRUTEFORCE].txt.
 
-УВАГА!!! команда BRUTEFORCE не буде працювати, якщо не буде попередньо створено pfibahjdfyjuj ntrcne MainFile[ENCRYPTED].txt
+УВАГА!!! команда BRUTEFORCE не буде працювати, якщо не буде попередньо створено зашифрований файл MainFile[ENCRYPTED].txt
