@@ -1,19 +1,14 @@
 package org.javarush;
 import java.io.IOException;
 
-
- class Runner {
-
-    public static void main(String[] args) throws IOException {
+class Runner {
+    public static void main(String[] args) {
         String command = args[0].toUpperCase();
-
         String filepath = args[1];
-
         int key;
-
         try {
             key = Math.abs(Integer.parseInt(args[2]));// Застосування модулю для ключа
-        } catch (NumberFormatException e) {
+        } catch(NumberFormatException e) {
             System.out.println("Invalid key");
             return;
         }

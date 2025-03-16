@@ -3,8 +3,7 @@ package org.javarush;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-
- class Constants {
+class Constants {
     static final ArrayList<Character> Alphabet = new ArrayList<>(Arrays.asList
             ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
                     'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',

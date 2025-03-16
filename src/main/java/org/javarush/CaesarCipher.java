@@ -2,10 +2,8 @@ package org.javarush;
 
 import java.util.ArrayList;
 
- class CaesarCipher {
-
+class CaesarCipher {
      static String cipher(String text, int shift){
-
         ArrayList<Character> alphabet = Constants.Alphabet;// витяг з класу Constants
         StringBuilder encrypt = new StringBuilder(); // зберігає зашифровані рядки
         shift = Math.floorMod(shift,alphabet.size());//модуль
@@ -20,7 +18,6 @@ import java.util.ArrayList;
             }
         }
         return encrypt.toString();
-        //повертаємо енкріпт у стрінг
     }
      static String decipher(String text, int shift) {//реалізація декріптера
          return cipher(text,-shift );
