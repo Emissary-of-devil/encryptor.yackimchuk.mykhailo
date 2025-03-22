@@ -25,13 +25,12 @@ class FileService {
         }
         return encryptedFile;
     }
-
- void processFile() {
-    File ReadFromFile = new File(filepath);// перевірка чи файл існує
-     if (!ReadFromFile.exists()) {
+    void processFile() {
+        File ReadFromFile = new File(filepath);
+        if (!ReadFromFile.exists()) {
          System.out.println("Error:" + filepath + " File is not exist! Please enter valid file path");
          return;
-     }
+        }
         try {
             String content = new String(Files.readAllBytes(Paths.get(filepath.toLowerCase())));// Читання файлу
             String result = "";// Результат з ENCRYPT або з DECRYPT
